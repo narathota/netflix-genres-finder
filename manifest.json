@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.netflix.com/browse"
+        "https://www.netflix.com/**"
       ],
       "js": [
         "js/netflix-url-modifier.js"
@@ -14,7 +14,10 @@
     }
   ],
   "browser_action": {
-    "default_popup": "html/extension-tray.html",
+    "default_popup": "extension-tray.html",
     "default_title": ""
-  }
+  },
+  "permissions": [
+    "tabs"
+  ]
 }
