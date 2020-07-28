@@ -1,5 +1,5 @@
 .main-container {
-    height: 400px;
+    height: 256px;
     width: 250px;
     background: rgba(255, 255, 255, 0.51);
 }
@@ -10,7 +10,7 @@
 }
 
 #myInput {
-    /*background-image: url('/css/searchicon.png');*/
+    /*background-image: url('../assets/img/searchicon.png');*/
     background-position: 10px 12px;
     background-repeat: no-repeat;
     width: 100%;
@@ -34,9 +34,15 @@
     text-decoration: none;
     font-size: 18px;
     color: black;
-    display: block
+    display: block;
+    cursor: pointer;
 }
 
 #myUL li a:hover:not(.header) {
     background-color: #eee;
+}
+
+.list-container-div {
+    max-height: 300px;
+    overflow-y: scroll;
 }

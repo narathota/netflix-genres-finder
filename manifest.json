@@ -22,7 +22,7 @@
   "browser_action": {
     "default_popup": "netflix/extension-tray.html",
     "default_title": "Netflix Genres Finder",
-    "default_icon": "icon.ico"
+    "default_icon": "netflix/assets/img/icon.png"
   },
   "permissions": [
     "tabs",
